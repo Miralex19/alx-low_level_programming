@@ -1,14 +1,13 @@
 #include <stdio.h>
-#include <string.h>
+
 /**
-*  main - prints "text"
-*Return: 0
-*/
+  * main - Printing
+  *
+  * Return: Always 0 (Successful)
+  */
 int main(void)
 {
-	char Mystr[] = "Programming is like building a multilingual puzzle"
-
-	puts(Mystr);
+	puts("\"Programming is like building a multilingual
+			puzzle");
 	return (0);
 }
-
