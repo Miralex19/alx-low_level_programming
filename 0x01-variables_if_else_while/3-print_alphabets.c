@@ -20,7 +20,7 @@ while (cl <= 'Z')
 {
 putchar(cl);
 cl++;
-putchar("/n");
+putchar('\n');
 }
 return (0);
 }
