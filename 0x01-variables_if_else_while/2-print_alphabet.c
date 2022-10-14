@@ -1,7 +1,6 @@
 #include <stdio.h>
-/*
-*main-prints a-z lowercase
-*
+/**
+*main - "prints a-z lowercase"
 *Return:O(Passed)
 **/
 
@@ -11,8 +10,9 @@ char al = 'a';
 
 while (al <= 'z')
 	{
-	putchar(al);
+	putchar(al\n);
 	al++;
 	}
 return (0);
 }
+
