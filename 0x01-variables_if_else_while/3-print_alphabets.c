@@ -1,26 +1,22 @@
 #include <stdio.h>
 
 /**
-*main - "prints a-z lowercase and uppercase with new line"
-*
-*Return:O(Passed)
-*/
-
+   *main-program entry point.
+    *Return:0 no error, non zero if error.
+     **/
 int main(void)
 {
-char al = 'a';
-char cl = 'A';
+char i;
+char j;
 
-while (al <= 'z')
+for (i = 'a'; i <= 'z'; i++)
 {
-putchar(al);
-al++;
+putchar(i);
 }
-while (cl <= 'Z')
+for (j = 'A'; j <= 'Z'; j++)
 {
-putchar(cl);
-cl++;
+putchar(j);
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }
