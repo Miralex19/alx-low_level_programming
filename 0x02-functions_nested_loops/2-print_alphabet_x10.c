@@ -14,7 +14,7 @@ int count = 0;
 	{
 		char ch = 'a';
 
-		while (char ch <= 'z')
+		while (ch <= 'z')
 		{
 			_putchar(ch);
 			ch++;
