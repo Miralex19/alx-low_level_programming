@@ -1,22 +1,16 @@
 #include "main.h"
+
 /**
- *print_line - prints line to a specific number
- *@n: specify no of times line should be printed
- */
+  * print_line - print the character "_" n times to draw a line
+  * @n: number of characters to draw
+  */
+
 void print_line(int n)
 {
-	if (n <= 0)
-	{
-		_putchar ('\n');
-	}
-	else
-	{
-		int i;
+	int times = n;
 
-		for (i = 1; i <= n; i++)
-		{
-			_putchar('_');
-		}
-		_putchar('\n');
-	}
+	for (times = n; times > 0; times--)
+		putchar('');
+
+	_putchar('\n');
 }
